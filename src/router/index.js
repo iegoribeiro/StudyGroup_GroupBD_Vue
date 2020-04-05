@@ -7,15 +7,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/' || 'home',
     name: 'Dashboard',
     component: Dashboard
   },
   {
     path: '/funcionario',
-    name: 'cadastrarFuncionario',
-    component: 
-      CadastrarFuncionario
+    name: 'CadastrarFuncionario',
+    component: CadastrarFuncionario
     
     //component: () => import('../components/CadastroFuncionario.vue')
   }
